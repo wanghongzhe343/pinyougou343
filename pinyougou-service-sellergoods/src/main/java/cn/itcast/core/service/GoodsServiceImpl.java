@@ -81,6 +81,7 @@ public class GoodsServiceImpl implements  GoodsService {
             //3:库存多个表
             List<Item> itemList = vo.getItemList();
             for (Item item : itemList) {
+                System.out.println("haha");
 
                 //商品名称  名称
                 //标题  商品名称 " " + 规格1 + " " + 规格2 + ..
